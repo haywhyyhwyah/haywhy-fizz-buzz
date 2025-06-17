@@ -9,9 +9,8 @@ function checker() {
             show.innerHTML = '<p class="alert alert-light text-center"> ' + num + ' is a Fizz ✅</p>'
         }else if (num % 5 == 0){
             show.innerHTML = '<p class="alert alert-warning text-center">'+ num +' is a Buzz ✅</p>'
-        }else if (num % 3 !== 0 && num % 3 !==0){
+        }else if (num % 3 !== 0 && num % 5 !==0){
             show.innerHTML = '<p class="alert alert-danger text-center">'+ num +' is neither a Fizz nor Buzz ❌</p>'
         }
     }
 }
-
